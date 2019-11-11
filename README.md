@@ -1,10 +1,26 @@
-# jekyll
+# Jekyll
 
 Jekyll guide for static pages
 
 
 
-## Referências
+## Enviroment
+
+
+
+## Install Jekyll
+
+
+
+## Install Jekyll Theme
+
+
+
+## Config GitHub Pages
+
+
+
+## References
 
 [GitHub Pages](https://pages.github.com/)
 
@@ -21,5 +37,3 @@ Jekyll guide for static pages
 [Colocando um site no ar com Jekyll: usando o terminal](https://jtemporal.com/do-tema-ao-ar/)
 
 [Jekyll Theme: Developr](http://jekyllthemes.org/themes/devlopr/)
-
-
