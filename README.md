@@ -6,17 +6,86 @@ Jekyll guide for static pages
 
 ## Enviroment
 
+First create your new repository named *username*.github.io, where *username *is your username on GitHub.
+
+Check if ruby in running with
+
+```bash
+ruby -v
+```
+
+
+
+Second install all dependencies:
+
+```bash
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
+
 
 
 ## Install Jekyll
+
+Install Jekyll:
+
+```bash
+gem install jekyll bundler
+```
+
+Create your new site:
+
+```bash
+jekyll new myblog
+```
+
+where myblog is your *username * or repository name.
+
+
+
+Change the bash to your new directory:
+
+```bash
+cd myblog
+```
+
+
+
+Build the site and make it available on a local server:
+
+```bash
+bundle exec jekyll serve
+```
+
+
+
+Now browse to http://localhost:4000
 
 
 
 ## Install Jekyll Theme
 
+Example link theme in github: [https://github.com/sujaykundu777/devlopr-jekyll](https://github.com/sujaykundu777/devlopr-jekyll)
+
+Edit _config.yml and add :
+
+```apacheconf
+remote_theme: sujaykundu777/devlopr-jekyll
+```
+
+or
+
+```bash
+git clone https://github.com/sujaykundu777/devlopr-jekyll.git
+cd devlopr-jekyll
+bundle install
+bundle exec jekyll serve
+```
+
 
 
 ## Config GitHub Pages
+
+
 
 
 
