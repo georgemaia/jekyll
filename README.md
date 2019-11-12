@@ -2,8 +2,6 @@
 
 Jekyll guide for static pages
 
-
-
 ## Enviroment
 
 First create your new repository named *username*.github.io, where *username *is your username on GitHub. Second install Ruby on system.
@@ -52,15 +50,11 @@ jekyll new myblog
 
 where myblog is your *username * or repository name.
 
-
-
 Change the bash to your new directory:
 
 ```bash
 cd myblog
 ```
-
-
 
 Build the site and make it available on a local server:
 
@@ -68,11 +62,7 @@ Build the site and make it available on a local server:
 bundle exec jekyll serve
 ```
 
-
-
 Now browse to http://localhost:4000
-
-
 
 ## Install Jekyll Theme
 
@@ -93,13 +83,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-
-
 ## Config GitHub Pages
-
-
-
-
 
 ## References
 
@@ -118,3 +102,5 @@ bundle exec jekyll serve
 [Colocando um site no ar com Jekyll: usando o terminal](https://jtemporal.com/do-tema-ao-ar/)
 
 [Jekyll Theme: Developr](http://jekyllthemes.org/themes/devlopr/)
+
+[Build a blog using Devlopr Jekyll](https://devlopr.netlify.com/guides/2019/05/20/build-a-blog-using-devlopr-jekyll/)
