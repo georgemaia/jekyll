@@ -6,7 +6,9 @@ Jekyll guide for static pages
 
 ## Enviroment
 
-First create your new repository named *username*.github.io, where *username *is your username on GitHub.
+First create your new repository named *username*.github.io, where *username *is your username on GitHub. Second install Ruby on system.
+
+### Linux
 
 Check if ruby in running with
 
@@ -14,15 +16,25 @@ Check if ruby in running with
 ruby -v
 ```
 
-
-
 Second install all dependencies:
 
 ```bash
 sudo apt-get install ruby-full build-essential zlib1g-dev
 ```
 
+### Windows
 
+Install Chocolatey on Administrator mode or Powershell
+
+```bash
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
+Second install ruby:
+
+```bash
+cinst ruby
+```
 
 ## Install Jekyll
 
