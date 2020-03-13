@@ -68,7 +68,7 @@ Now browse to http://localhost:4000
 
 Example link theme in github: [https://github.com/sujaykundu777/devlopr-jekyll](https://github.com/sujaykundu777/devlopr-jekyll)
 
-Edit _config.yml and add :
+Edit *_config.yml* and add :
 
 ```apacheconf
 remote_theme: sujaykundu777/devlopr-jekyll
@@ -83,7 +83,11 @@ bundle install
 bundle exec jekyll serve
 ```
 
-## Config GitHub Pages
+## Inicie o Jekyll
+
+```bash
+jekyll serve
+```
 
 ## References
 
