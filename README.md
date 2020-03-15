@@ -97,6 +97,8 @@ jekyll serve
 
 [Jekyll Quickstart](https://jekyllrb.com/docs/)
 
+[Configurando Jekyll para GitHub Pages em 60 Segundos](https://webdesign.tutsplus.com/pt/tutorials/setting-up-jekyll-for-github-pages-in-60-seconds--cms-27256)
+
 [Jekyll Installation](https://jekyllrb.com/docs/installation/)
 
 [Jekyll Resources](https://jekyllrb.com/resources/)
